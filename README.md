@@ -10,7 +10,7 @@
 
 - **Author:** Muhammad Khubaib Ahmad
 - **Email:** [khubaib.ahmad@inference-lab.org](mailto:khubaib.ahmad@inference-lab.org)
-- **Organization:** Inference LAB
+- **Organization:** INFERENCE Lab
 - **License:** MIT License
 
 ---
@@ -287,4 +287,4 @@ The research paper describing the clinical methodology, biophysics, and statisti
 
 This software is distributed under the **MIT License**. See the [LICENSE](LICENSE) file for the full license text.
 
-Copyright (c) 2026 **Muhammad Khubaib Ahmad** ([khubaib.ahmad@inference-lab.org](mailto:khubaib.ahmad@inference-lab.org)), Inference LAB.
+Copyright (c) 2026 **Muhammad Khubaib Ahmad** ([khubaib.ahmad@inference-lab.org](mailto:khubaib.ahmad@inference-lab.org)), INFERENCE Lab.
