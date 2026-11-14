@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "glottocross"
+version = "0.1.0"
+description = "Cross-Task Glottic Valving & Acoustic-Endoscopic Kinematics Framework for Otorhinolaryngology"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    {name = "Inference LAB"}
+]
+keywords = [
+    "otorhinolaryngology",
+    "laryngology",
+    "presbylaryngis",
+    "parkinsonian-dysphonia",
+    "laryngostroboscopy",
+    "cepstral-peak-prominence",
+    "glottal-kinematics",
+    "voice-biomarkers"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Healthcare Industry",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis"
+]
+dependencies = [
+    "numpy>=1.22.0",
+    "scipy>=1.8.0",
+    "scikit-learn>=1.0.0",
+    "praat-parselmouth>=0.4.0",
+    "soundfile>=0.10.0",
+    "pandas>=1.3.0",
+    "pillow>=9.0.0",
+    "matplotlib>=3.5.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/Inference-LAB/glottocross"
+Repository = "https://github.com/Inference-LAB/glottocross"
+"Bug Tracker" = "https://github.com/Inference-LAB/glottocross/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["glottocross*"]
