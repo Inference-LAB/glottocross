@@ -10,7 +10,8 @@ A lightweight, biophysically grounded computational framework for Otorhinolaryng
 """
 
 __version__ = "0.1.0"
-__author__ = "Inference LAB"
+__author__ = "Muhammad Khubaib Ahmad"
+__email__ = "khubaib.ahmad@inference-lab.org"
 
 from .acoustics import (
     extract_acoustic_features,
